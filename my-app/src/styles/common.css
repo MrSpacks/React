@@ -1,4 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
-
+}
+.conteiner{
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0px 30px;
 }
