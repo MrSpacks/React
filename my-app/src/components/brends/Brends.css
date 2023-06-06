@@ -1,0 +1,13 @@
+.brends{
+    padding-top: 60px;
+    width: 100%;
+    height: 186px;
+    background-color: #EBD96B;
+}
+.brends_list{
+    mix-blend-mode: multiply;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
