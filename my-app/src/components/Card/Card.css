@@ -1,0 +1,34 @@
+.card_img{
+    margin-bottom: 28px;
+    border-radius: 20px;
+}
+.card_img:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.card_body{
+    display: flex;
+    justify-content: space-between;
+}
+.card_title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.56;
+    letter-spacing: -0.04em;
+}
+.card_subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #7F7F7F;
+}
+.card_icon{
+    position: relative;
+    display: flex;
+}
+.card_icon:hover{
+    position: relative;
+    left: 20px;
+    transition: 0.3s;
+}
