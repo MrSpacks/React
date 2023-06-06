@@ -10,13 +10,16 @@
     padding-top: 68px;
     padding-left: 120px;
 }
-
+span{
+    display: inline-block;
+}
 .promo_text{
     width: 50%;
     height: auto;
 
 }
 .promo_title{
+    max-width: 480px;
     margin-bottom: 40px;
     font-style: normal;
     font-weight: 900;
@@ -31,9 +34,17 @@
     margin-bottom: 32px;
 }
 .promo_btn-wrapper{
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
 
 }
 .promo_btn-wrapper::before{
+    content: "";
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url(./../../img/icons/decor-yellow.svg);
 }
 .rpomo_btn{
     padding: 18px 14px;
@@ -44,4 +55,38 @@
     line-height: 45px;
     letter-spacing: -0.05em;
     color: #FFFFFF;
+}
+.hight_light{
+    position: relative;
+}
+.hight_light span{
+    position: relative;
+}
+.hight_light::before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    bottom: 0px;
+    right: -160px;
+    left: -20px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+.hight_light--yellow{
+    position: relative;}
+
+.hight_light--yellow span{
+    position: relative;
+}
+.hight_light--yellow::before{
+    background-color: #EBD96B;
+    content:"";
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    bottom: 0px;
+    right: -120px;
+    left: -20px;
+    transform: rotate(-2deg);
 }
