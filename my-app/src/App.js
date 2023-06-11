@@ -3,7 +3,7 @@ import Promo from './components/promo/promo.jsx'
 import Brends from './components/brends/Brends.jsx'
 import Arrivals from './components/arrivals/arrivals.jsx';
 import Banner from './components/Banner/Banner.jsx'
-
+import Favourite from './components/Favourite/Favourite.jsx'
 function App() {
   return (
     
@@ -13,6 +13,7 @@ function App() {
       <Brends />
       <Arrivals />
       <Banner />
+      <Favourite />
     </div>
   );
 }
