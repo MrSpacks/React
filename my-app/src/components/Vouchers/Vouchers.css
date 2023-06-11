@@ -1,6 +1,7 @@
 .vouchers_content{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 200px;
 }
 .vouchers_texts{
     margin-top: 200px;
@@ -24,5 +25,4 @@
 .vouchers_stores{
     display: flex;
     justify-content: space-between;
-
 }
