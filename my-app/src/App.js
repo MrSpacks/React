@@ -6,6 +6,7 @@ import Banner from './components/Banner/Banner.jsx'
 import Favourite from './components/Favourite/Favourite.jsx'
 import Vouchers from './components/Vouchers/Vouchers.jsx'
 import Community from './components/Community/Community.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Favourite />
       <Vouchers />
       <Community />
+      <Footer />
     </div>
   );
 }
